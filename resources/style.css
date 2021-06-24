@@ -97,12 +97,25 @@ footer {
     width: 100%;
 }
 .locations {
+    background-image: url(img-locations-background.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
     width: auto;
-    max-height: 500px;
-    display: flex;
-    overflow: hidden;
+    height: 500px;
+    display: block;
+}
+.locations h3 {
+    text-align: center;
+    top: 20%;
 }
 .locations .boxes {
     margin: 15px, 40px;
-    opacity: 1;
+    opacity: .5;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    bottom: 50%
 }
